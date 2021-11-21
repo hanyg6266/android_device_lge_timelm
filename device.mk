@@ -301,7 +301,6 @@ $(call soong_config_set,lineage_recovery,bootloader_message_offset,128)
 # Rootdir
 PRODUCT_PACKAGES += \
     init.mdm.sh \
-    init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     init.qcom.usb.sh \

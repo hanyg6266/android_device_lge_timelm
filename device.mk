@@ -94,6 +94,7 @@ PRODUCT_PACKAGES += \
     libspkrprot \
     libvisualizer \
     libvolumelistener \
+    sound_trigger.primary.kona \
     tinymix
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8250/audio

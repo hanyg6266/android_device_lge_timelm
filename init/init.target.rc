@@ -200,14 +200,3 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
 
 on property:vendor.dcvs.prop=1
    start dcvs-sh
-
-on property:vold.post_fs_data_done=1 && property:ro.boot.vendor.lge.forced_log=enable
-    setprop ro.vendor.lge.forced_log enable
-
-on property:ro.vendor.lge.forced_log=enable
-    setprop persist.vendor.lge.service.crash.enable 1
-    setprop persist.vendor.lge.service.kernel.enable 5
-    setprop persist.vendor.lge.service.main.enable 5
-    setprop persist.vendor.lge.service.system.enable 5
-    setprop persist.vendor.lge.service.radio.enable 5
-    setprop persist.vendor.lge.service.events.enable 5

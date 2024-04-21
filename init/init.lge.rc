@@ -327,9 +327,6 @@ on boot
     write /sys/kernel/debug/clk/debug_suspend 1
     write /sys/module/msm_show_resume_irq/parameters/debug_mask 1
 
-	# printk log level
-    write /proc/sys/kernel/printk "7 6 1 7"
-
 on property:vendor.lge.nfc_vendor=sony
     stop vendor.nfc_hal_service
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules cxd22xx
@@ -351,9 +348,3 @@ service vendor.prmd /vendor/bin/prmd
    socket prm-client stream 660 system system
    user system
    group system
-
-# LG Hiddenmenu smpl_count service
-service vendor.smpl_count /vendor/bin/smpl_count
-   class main
-   user root
-   oneshot

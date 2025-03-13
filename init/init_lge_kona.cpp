@@ -1,7 +1,7 @@
 /*
-   Copyright (C) 2007, The Android Open Source Project
-   Copyright (c) 2016, The CyanogenMod Project
-   Copyright (c) 2017, The LineageOS Project
+   SPDX-FileCopyrightText: The Android Open Source Project
+   SPDX-FileCopyrightText: The CyanogenMod Project
+   SPDX-FileCopyrightText: The LineageOS Project
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are

@@ -375,6 +375,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.lge
 
+# Vintf
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \

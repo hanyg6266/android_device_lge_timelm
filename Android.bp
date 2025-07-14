@@ -24,9 +24,3 @@ install_symlink {
     installed_location: "firmware_mnt/image",
     symlink_target: "/vendor/firmware/qca6390",
 }
-
-mkdir {
-    name: "vendor_OP_mountpoint",
-    dir: "OP",
-    vendor: true,
-}

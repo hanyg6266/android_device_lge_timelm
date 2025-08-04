@@ -24,12 +24,6 @@ prebuilt_etc {
 	ramdisk_available: true,
 }
 
-prebuilt_etc {
-	name: "fstab.zram",
-	src: "fstab.zram",
-	vendor: true,
-}
-
 // Init scripts
 sh_binary {
         name: "init.class_main.sh",

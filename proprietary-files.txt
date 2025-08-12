@@ -105,7 +105,6 @@ vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libwebrtc_audio_preprocessing.so
-vendor/lib/soundfx/libaisound.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/liblgeffectwrapper.so
 vendor/lib/soundfx/libqcbassboost.so

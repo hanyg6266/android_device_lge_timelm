@@ -177,6 +177,10 @@ PRODUCT_COPY_FILES += \
 # Init
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_lge_kona)
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout) \
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \

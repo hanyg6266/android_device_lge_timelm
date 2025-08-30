@@ -757,10 +757,6 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 # Input
 vendor/etc/excluded-input-devices.xml
 
-# Keylayout
-vendor/usr/keylayout/Vendor_1004_Product_637a.kl
-vendor/usr/keylayout/gpio-keys.kl
-
 # Keystore
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc

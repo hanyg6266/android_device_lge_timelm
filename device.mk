@@ -349,7 +349,7 @@ PRODUCT_BOOT_JARS += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.lge_sm8250
+    vendor.lineage.touch-service.lge
 
 # Update engine
 PRODUCT_HOST_PACKAGES += \

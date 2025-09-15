@@ -1,37 +1,9 @@
 <compatibility-matrix type="framework" version="2.0">
     <hal format="hidl" optional="true">
         <name>vendor.nxp.nxpnfc</name>
-        <version>1.0</version>
-        <interface>
-            <name>INxpNfc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.nxp.nxpnfc</name>
         <version>2.0</version>
         <interface>
             <name>INxpNfc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.lge.hardware.biometrics.fingerprint</name>
-        <version>2.2</version>
-        <interface>
-            <name>ILgeBiometricsFingerprint</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-       <name>vendor.lge.hardware.lgdat</name>
-       <version>1.1</version>
-       <interface>
-            <name>ILgData</name>
-            <instance>default</instance>
-        </interface>
-       <interface>
-            <name>ILgDataVendorRil</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -76,19 +48,9 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.lge.hardware.audio.dac.control</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
         <version>2.0</version>
         <interface>
             <name>IDacControl</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IDacAdvancedControl</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IDacHalControl</name>
             <instance>default</instance>
         </interface>
     </hal>

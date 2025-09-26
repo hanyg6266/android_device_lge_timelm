@@ -208,35 +208,6 @@ vendor/lib64/libarcsoft_object_tracking.so
 vendor/lib64/libarcsoft_picselfie_algorithm.so
 vendor/lib64/libarcsoft_singlecam_portrait_lighting.so
 
-# Camera (configs)
-vendor/etc/camera/auxpackagelist.txt
-vendor/etc/qvr/cfg/356/0/65536/mtp865.txt
-vendor/etc/qvr/cfg/356/0/65536/mtp865_6dof_config.xml
-vendor/etc/qvr/cfg/356/0/65536/mtp865_qvr_3dof_tracker_config.txt
-vendor/etc/qvr/cfg/356/1/131072/morpheus.txt
-vendor/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml
-vendor/etc/qvr/cfg/356/1/131072/morpheus_qvr_3dof_tracker_config.txt
-vendor/etc/qvr/cfg/356/1/196608/morpheus3.txt
-vendor/etc/qvr/cfg/356/1/196608/morpheus3_6dof_config.xml
-vendor/etc/qvr/cfg/356/1/196608/morpheus3_qvr_3dof_tracker_config.txt
-vendor/etc/qvr/cfg/356/1/262144/oracle.txt
-vendor/etc/qvr/cfg/356/1/262144/oracle_6dof_config.xml
-vendor/etc/qvr/cfg/356/1/262144/oracle_qvr_3dof_tracker_config.txt
-vendor/etc/qvr/cfg/356/1/65536/trinity.txt
-vendor/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml
-vendor/etc/qvr/cfg/356/1/65536/trinity_qvr_3dof_tracker_config.txt
-vendor/etc/qvr/cfg/356/2/65536/mtp865.txt
-vendor/etc/qvr/cfg/356/2/65536/mtp865_6dof_config.xml
-vendor/etc/qvr/cfg/356/2/65536/mtp865_qvr_3dof_tracker_config.txt
-vendor/etc/qvr/cfg/371/10/65536/sheldon.txt
-vendor/etc/qvr/cfg/371/10/65536/sheldon_6dof_config.xml
-vendor/etc/qvr/cfg/371/10/65536/sheldon_qvr_3dof_tracker_config.txt
-vendor/etc/qvr/cfg/371/11/65536/merlin.txt
-vendor/etc/qvr/cfg/371/11/65536/merlin_6dof_config.xml
-vendor/etc/qvr/qvr_hid_device_list.txt
-vendor/etc/qvr/qvr_usb_device_list.txt
-vendor/etc/qvr/qvrservice_config.txt
-
 # Camera (components)
 vendor/lib64/camera/components/com.lge.node.camerasolution.so
 vendor/lib64/camera/components/com.lge.node.capturebokeh.so
@@ -1207,8 +1178,6 @@ vendor/etc/wifi/Diag.cfg
 vendor/etc/wifi/GLOBAL/bdwlan.elf;SYMLINK=vendor/firmware/wlan/qca_cld/bdwlan.elf
 vendor/etc/wifi/GLOBAL/bdwlan_ch0.elf;SYMLINK=vendor/firmware/wlan/qca_cld/bdwlan_ch0.elf
 vendor/etc/wifi/GLOBAL/bdwlan_ch1.elf;SYMLINK=vendor/firmware/wlan/qca_cld/bdwlan_ch1.elf
-vendor/etc/wifi/PerProviderSubscription.conf
-vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
 vendor/etc/wifi/icudt53l.dat
